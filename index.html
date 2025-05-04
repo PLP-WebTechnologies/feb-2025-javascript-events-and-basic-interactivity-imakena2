@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Magic Playground</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to Magic Playground!</h1>
+    <p>Click, hover, type... explore the magic!</p>
+  </header>
+
+  <section class="interaction">
+    <button id="magicBtn">Click Me!</button>
+    <div id="colorBox">Hover over me!</div>
+    <p id="keyMsg">Press any key to see the magic!</p>
+    <p id="secretMsg">Double click for a secret surprise!</p>
+    <div id="unicorn">Unicorn</div>
+  </section>
+
+  <section class="gallery">
+    <h2>Image Gallery</h2>
+    <img id="galleryImage" src="https://placekitten.com/300/200" alt="Cute animal" />
+    <br />
+    <button id="nextImage">Next Image</button>
+  </section>
+
+  <section class="form-area">
+    <h2>Sign Up</h2>
+    <form id="signupForm" novalidate>
+      <label>Name: <input type="text" id="name" required /></label><br/>
+      <label>Email: <input type="email" id="email" required /></label><br/>
+      <label>Password: <input type="password" id="password" required /></label><br/>
+      <p id="feedback"></p>
+      <button type="submit">Join the Fun!</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Magic Playground. Made for kids with love</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
